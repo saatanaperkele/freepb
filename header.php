@@ -20,8 +20,6 @@ global $logo;
 ?>
 
 <link type="text/css" rel="stylesheet" href="/css/first.css">
-
-
 <body>
 <div id="header">
 <div class="ad">
