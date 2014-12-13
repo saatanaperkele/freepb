@@ -1,3 +1,4 @@
+<?php
 /*
 *	freePB
 *	A Simple, Modular, and Quick
