@@ -10,8 +10,8 @@
 *	plagues our once great movement
 *	
 *
-*	File: 
-*	Author:
+*	File: footer.php [contains footer stuff, links, etc]
+*	Author: finlandia
 *	Released under WTFPL
 */
 
