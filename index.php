@@ -30,7 +30,6 @@ setTitle("Spreading Freedom Across Your Tubes Since 2003");
 
 //fetching the newest mysql row for `url` in table `logos`
 $logo = getCurrent("logos", "url");
-
 //formatting the logo
 echo('<center><img src="'.$logo.'" height="420" width="420">');
 echo('<br>');
@@ -39,6 +38,6 @@ echo('<br>');
 //setting up the searchbox
 echo('<form action="search.php">');
 echo('<input type="text" name="piracy"><br>');
-echo('<input type="button" text="Pirate Search"> <input type="button" text="I\'m Feeling Lucky">');
+echo('<input type="button" value="Pirate Search"> <input type="button" value="I\'m Feeling Lucky">');
 
 
