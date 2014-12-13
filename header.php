@@ -15,3 +15,6 @@
 */
 
 include("functions.php");
+?>
+
+<link type="text/css" rel="stylesheet" href="/css/first.css">
