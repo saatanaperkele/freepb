@@ -25,5 +25,7 @@ function getCurrent($x, $y){
 }
 
 function headerize($text){
-	echo("<h1>$text</h1>");
+//	echo("<h1>$text</h1>");
+	echo "<h2><span>$text</span>&nbsp;</h2>";
+
 }
