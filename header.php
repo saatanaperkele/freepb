@@ -25,6 +25,7 @@ global $logo;
 <body>
 <div id="header">
 <div class="ad">
+</div>
 <!-- script type="text/javascript" src="http://srvpub.com/adServe/banners?tid=SP1PIRATE_23860_0&size=468x60"></script>	</div -->
 <form id="piracy" action="search.php">
 <a href="/" class="img"><img src="<?php echo $logo ?>" id="TPBlogo" alt="The Pirate Bay"/></a>
