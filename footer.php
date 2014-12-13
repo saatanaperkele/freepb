@@ -1,3 +1,4 @@
+<?php
 /*
 *	freePB
 *	A Simple, Modular, and Quick
@@ -12,3 +13,5 @@
 *	Author:
 *	Released under WTFPL
 */
+
+echo '<small><center> [freepb, kopimi+wtfpl, 2014, finlandia]</center></small>';
