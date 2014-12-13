@@ -19,3 +19,9 @@ include("header.php")
 <div id="main-content">
 <table id="searchResult">
 <thead id="tableHead">
+<tr class="header">
+<th>Type</th>
+<th><div class="sortby">Name</div>
+<!-- div class=""> </div></th -->
+<th><abbr title="seeders">SE</abbr></th>
+<th><abbr title="Leechers">LE</abbr></th>
