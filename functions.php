@@ -23,3 +23,7 @@ function setTitle($goeswith){
 function getCurrent($x, $y){
 	return "img/logo.png";
 }
+
+function headerize($text){
+	echo("<h1>$text</h1>");
+}
