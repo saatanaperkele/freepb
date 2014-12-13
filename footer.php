@@ -1,3 +1,4 @@
+
 <?php
 /*
 *	freePB
@@ -14,4 +15,4 @@
 *	Released under WTFPL
 */
 
-echo '<small><center> [freepb, kopimi+wtfpl, 2014, finlandia]</center></small>';
+echo '<small><center> [freepb, <img src="/img/c_mini_7.gif" href="http://kopimi.com/kopimi"> + wtfpl, 2014, finlandia]</center></small>';
