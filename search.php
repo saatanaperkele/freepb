@@ -1,3 +1,4 @@
+<?php
 /*
 *	freePB
 *	A Simple, Modular, and Quick
@@ -8,7 +9,9 @@
 *	plagues our once great movement
 *	
 *
-*	File: 
-*	Author:
+*	File: search.php [searches the site for something]
+*	Author: finlandia
 *	Released under WTFPL
 */
+include('header.php');
+headerize('Search Results for "'.$_GET['piracy'].'"');
