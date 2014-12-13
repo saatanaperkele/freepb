@@ -1,3 +1,4 @@
+<?php
 /*
 *	freePB
 *	A Simple, Modular, and Quick
@@ -8,7 +9,9 @@
 *	plagues our once great movement
 *	
 *
-*	File: 
-*	Author:
+*	File: header.php [goes atop seach pages, browse pages, etc]
+*	Author: finlandia
 *	Released under WTFPL
 */
+
+
