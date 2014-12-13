@@ -1,4 +1,5 @@
 <?php
+
 /*
 *	freePB
 *	A Simple, Modular, and Quick
@@ -37,6 +38,6 @@ echo('<br>');
 //setting up the searchbox
 echo('<form action="search.php">');
 echo('<input type="text" name="piracy"><br>');
-echo('<input type="button" text="Pirate Search"> <input type="button" text="I'm Feeling Lucky">
+echo('<input type="button" text="Pirate Search"> <input type="button" text="I\'m Feeling Lucky">');
 
 

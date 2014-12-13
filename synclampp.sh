@@ -1,0 +1,1 @@
+cp * /opt/lampp/htdocs/

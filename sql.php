@@ -1,3 +1,4 @@
+<?php
 /*
 *	freePB
 *	A Simple, Modular, and Quick
@@ -12,3 +13,4 @@
 *	Author:
 *	Released under WTFPL
 */
+$siteName = "FreePirateBay";
