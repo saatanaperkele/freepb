@@ -9,7 +9,7 @@
 *	plagues our once great movement
 *	
 *
-*	File: 
+*	File: functions.php [basic functions]
 *	Author:
 *	Released under WTFPL
 */
@@ -19,3 +19,7 @@ function setTitle($goeswith){
 	echo "<title>$goeswith - $siteName</title>";
 }
 
+//dummy functions
+function getCurrent($x, $y){
+	return "img/logo.png";
+}
