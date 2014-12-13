@@ -14,4 +14,4 @@
 *	Released under WTFPL
 */
 
-
+include("functions.php");
