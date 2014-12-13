@@ -13,3 +13,10 @@
 *	Author: finlandia
 *	Released under WTFPL
 */
+
+//header here, (calls functions->sql) for entire page
+
+//take torrent name here
+//take category
+//take magnet link
+//submit button
