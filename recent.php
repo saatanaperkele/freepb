@@ -16,6 +16,10 @@
 include("header.php")
 ?>
 <!-- Building header -->
+
+<div id="content">
+<div id="sky-right">
+</div>
 <div id="main-content">
 <table id="searchResult">
 <thead id="tableHead">
