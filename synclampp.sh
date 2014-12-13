@@ -1,1 +1,1 @@
-cp * /opt/lampp/htdocs/
+cp -rfp * /opt/lampp/htdocs/
