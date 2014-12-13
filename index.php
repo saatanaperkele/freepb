@@ -34,7 +34,7 @@ $logo = getCurrent("logos", "url");
 //formatting the logo
 echo('<center><img src="'.$logo.'" height="420" width="420">');
 echo('<br>');
-
+echo('Search Torrents | <a href="/browse/">Browse Torrents </a> | <a href="/recent/">Recent Torrents </a> | <a href="/browse/TV/"> TV Shows </a> | <a href="/browse/Music">Music </a> | <a href="/toplist/100"> Top 100 </a>');
 //setting up the searchbox
 echo('<form action="search.php">');
 echo('<input type="text" name="piracy"><br>');
