@@ -13,7 +13,8 @@
 *	Author:
 *	Released under WTFPL
 */
-include("header.php")
+include("header.php");
+headerize("Recent Torrents");
 ?>
 <!-- Building header -->
 
