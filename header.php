@@ -15,6 +15,8 @@
 */
 
 include("functions.php");
+
+global $logo;
 ?>
 
 <link type="text/css" rel="stylesheet" href="/css/first.css">
@@ -23,9 +25,9 @@ include("functions.php");
 <body>
 <div id="header">
 <div class="ad">
-<script type="text/javascript" src="http://srvpub.com/adServe/banners?tid=SP1PIRATE_23860_0&size=468x60"></script>	</div>
-<form id="q" action="search.php">
-<a href="http://thepiratebay.cr/" class="img"><img src="/static/img/tpblogo_sm_ny.gif" id="TPBlogo" alt="The Pirate Bay"/></a>
+<!-- script type="text/javascript" src="http://srvpub.com/adServe/banners?tid=SP1PIRATE_23860_0&size=468x60"></script>	</div -->
+<form id="piracy" action="search.php">
+<a href="/" class="img"><img src="<?php echo $logo ?>" id="TPBlogo" alt="The Pirate Bay"/></a>
 <b><a href="/" title="Search Torrents">Search Torrents</a></b>&nbsp;&nbsp;|&nbsp;
 <a href="/browse" title="Browse Torrents">Browse Torrents</a>&nbsp;&nbsp;|&nbsp;
 <a href="/recent" title="Recent Torrent">Recent Torrents</a>&nbsp;&nbsp;|&nbsp;
