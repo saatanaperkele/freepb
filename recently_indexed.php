@@ -19,5 +19,5 @@ headerize("Recently Indexed");
 
 //make a table
 
-echo "Uploaded from [username] | The Chronicles of TPB | Video [HD VIDEO] | >1 Minute Ago"
-echo "Scraped from [TPB-005 | TPB AFK	| Video [SD VIDEO] | 14 Minutes Ago"
+echo "Uploaded from [username] | The Chronicles of TPB | Video [HD VIDEO] | >1 Minute Ago";
+echo "Scraped from [TPB-005 | TPB AFK	| Video [SD VIDEO] | 14 Minutes Ago";
