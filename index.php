@@ -37,7 +37,5 @@ echo('Search Torrents | <a href="/browse/">Browse Torrents </a> | <a href="/rece
 echo('<br>');
 //setting up the searchbox
 echo('<form action="search.php">');
-echo('<input type="text" name="piracy"><br>');
+echo('<input type="text" name="piracy" size=70><br>');
 echo('<input type="button" value="Pirate Search"> <input type="button" value="I\'m Feeling Lucky">');
-
-
