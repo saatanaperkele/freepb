@@ -30,3 +30,7 @@ headerize("Recent Torrents");
 <!-- div class=""> </div></th -->
 <th><abbr title="seeders">SE</abbr></th>
 <th><abbr title="Leechers">LE</abbr></th>
+
+<?php
+include("footer.php");
+?>
