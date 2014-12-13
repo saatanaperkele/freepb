@@ -32,7 +32,7 @@ setTitle("Spreading Freedom Across Your Tubes Since 2003");
 $logo = getCurrent("logos", "url");
 
 //formatting the logo
-echo('<center><img src="$logo">');
+echo('<center><img src="'.$logo.'">');
 echo('<br>');
 
 //setting up the searchbox
