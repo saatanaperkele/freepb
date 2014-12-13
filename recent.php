@@ -1,3 +1,4 @@
+<?php
 /*
 *	freePB
 *	A Simple, Modular, and Quick
@@ -12,3 +13,9 @@
 *	Author:
 *	Released under WTFPL
 */
+include("header.php")
+?>
+<!-- Building header -->
+<div id="main-content">
+<table id="searchResult">
+<thead id="tableHead">
