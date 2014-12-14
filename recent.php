@@ -15,8 +15,8 @@
 */
 include("header.php");
 headerize("Recent Torrents");
-?>
-<!-- Building header -->
+
+//<!-- Building header -->
 
 echo '<div id="content">';
 echo '<div id="sky-right">';
@@ -27,10 +27,10 @@ echo '<thead id="tableHead">';
 echo '<tr class="header">';
 echo '<th>Type</th>';
 echo '<th><div class="sortby">Name</div>';
-<!-- div class=""> </div></th -->
+echo '<!-- div class=""> </div></th -->';
 echo '<th><abbr title="seeders">SE</abbr></th>';
 echo '<th><abbr title="Leechers">LE</abbr></th>';
 
-<?php
+
 include("footer.php");
 ?>
