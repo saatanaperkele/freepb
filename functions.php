@@ -21,7 +21,7 @@ function setTitle($goeswith){
 
 //dummy functions
 function getCurrent($x, $y){
-	return "img/logo.png";
+	return "/img/logo.png";
 }
 
 function headerize($text){
