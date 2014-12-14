@@ -28,7 +28,7 @@ global $logo;
 </div>
 <!-- script type="text/javascript" src="http://srvpub.com/adServe/banners?tid=SP1PIRATE_23860_0&size=468x60"></script>	</div -->
 </div>
-<form id="piracy" action="search_sanitize.php">
+<form id="piracy" action="/search_sanitize.php">
 <a href="/" class="img"><img src="<?php echo getCurrent("x", "y"); ?>" height=82 width=87 id="TPBlogo" alt="The Pirate Bay"/></a>
 <b><a href="/" title="Search Torrents">Search Torrents</a></b>&nbsp;&nbsp;|&nbsp;
 <a href="/browse" title="Browse Torrents">Browse Torrents</a>&nbsp;&nbsp;|&nbsp;
