@@ -36,6 +36,6 @@ global $logo;
 <a href="/tv/" title="TV shows">TV shows</a>&nbsp;&nbsp;|&nbsp;
 <a href="/music" title="Music">Music</a>&nbsp;&nbsp;|&nbsp;
 <a href="/top" title="Top 100">Top 100</a>
-<br><br/><input type="search" title="Pirate Search" name="q" required placeholder="Search here..." value="" style="background-color:#ffffe0;" class="searchBox"/><input
+<br><br/><input type="search" title="Pirate Search" name="piracy" required placeholder="Search here..." value="" style="background-color:#ffffe0;" class="searchBox"/><input
 value="Pirate Search" type="submit" class="submitbutton"/>
 
