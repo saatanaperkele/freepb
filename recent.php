@@ -18,18 +18,18 @@ headerize("Recent Torrents");
 ?>
 <!-- Building header -->
 
-<div id="content">
-<div id="sky-right">
-</div>
-<div id="main-content">
-<table id="searchResult">
-<thead id="tableHead">
-<tr class="header">
-<th>Type</th>
-<th><div class="sortby">Name</div>
+echo '<div id="content">';
+echo '<div id="sky-right">';
+echo '</div>';
+echo '<div id="main-content">';
+echo '<table id="searchResult">';
+echo '<thead id="tableHead">';
+echo '<tr class="header">';
+echo '<th>Type</th>';
+echo '<th><div class="sortby">Name</div>';
 <!-- div class=""> </div></th -->
-<th><abbr title="seeders">SE</abbr></th>
-<th><abbr title="Leechers">LE</abbr></th>
+echo '<th><abbr title="seeders">SE</abbr></th>';
+echo '<th><abbr title="Leechers">LE</abbr></th>';
 
 <?php
 include("footer.php");
