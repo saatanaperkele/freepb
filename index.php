@@ -24,6 +24,7 @@ include("functions.php");
 //setting page title with website name
 setTitle("Spreading Freedom Across Your Tubes Since 2003");
 ?>
+<link type="text/css" rel="stylesheet" href="/css/first.css">
 </head>
 <body>
 <?php
