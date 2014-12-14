@@ -15,7 +15,6 @@
 */
 include("header.php");
 headerize("Recent Torrents");
-
 //<!-- Building header -->
 
 echo '<div id="content">';
