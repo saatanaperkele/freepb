@@ -18,14 +18,15 @@ headerize("Recent Torrents");
 //<!-- Building header -->
 
 echo '<div id="content">';
-//echo '<div id="sky-right">';
-//echo '</div>';
+echo '<div id="sky-right">';
+echo '</div>';
 echo '<div id="main-content">';
 echo '<table id="searchResult">';
 echo '<thead id="tableHead">';
 echo '<tr class="header">';
 echo '<th>Type</th>';
 echo '<th><div class="sortby">Name</div>';
+echo '<div class="viewswitch"> RSS: <a href="/recentfeed.rss">feed here.</a></div></th>';
 echo '<!-- div class=""> </div></th -->';
 echo '<th><abbr title="seeders">SE</abbr></th>';
 echo '<th><abbr title="Leechers">LE</abbr></th>';
