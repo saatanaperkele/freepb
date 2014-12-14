@@ -33,4 +33,5 @@ echo '<th><abbr title="Leechers">LE</abbr></th>';
 
 
 include("footer.php");
+createFooter();
 ?>

@@ -19,3 +19,4 @@ headerize('Search Results for "'.$_GET['piracy'].'"');
 
 
 include('footer.php');
+createFooter();

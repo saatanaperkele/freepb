@@ -43,3 +43,4 @@ echo('</form>');
 
 echo('<br><br><br>');
 include("footer.php");
+createFooter();
