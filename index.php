@@ -23,19 +23,22 @@ include("functions.php");
 
 //setting page title with website name
 setTitle("Spreading Freedom Across Your Tubes Since 2003");
+
+//
 ?>
 <link type="text/css" rel="stylesheet" href="/css/first.css">
 </head>
 <body>
 <?php
-
 //fetching the newest mysql row for `url` in table `logos`
 $logo = getCurrent("logos", "url");
+
 //formatting the logo
 echo('<center><img src="'.$logo.'" height="420" width="420">');
 echo('<br>');
 echo('Search Torrents | <a href="/browse/">Browse Torrents </a> | <a href="/recent/">Recent Torrents </a> | <a href="/browse/TV/"> TV Shows </a> | <a href="/browse/Music">Music </a> | <a href="/toplist/100"> Top 100 </a>');
 echo('<br>');
+
 //setting up the searchbox
 echo('<form action="search_sanitize.php" method="GET">');
 echo('<input type="text" name="piracy" size=70><br>');
@@ -44,4 +47,5 @@ echo('</form>');
 
 echo('<br><br><br>');
 include("footer.php");
+
 createFooter();

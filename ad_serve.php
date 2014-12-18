@@ -13,3 +13,12 @@
 *	Author: finlandia
 *	Released under WTFPL
 */
+
+if(!$_GET['adno']){
+    //routine for fetching one randomly
+}
+
+if($_GET['adno']){
+    $ad->mysqli_query("SELECT * FROM `ads` SORT BY Random");
+    //$ad->mysqli_bind_result() derp
+}
