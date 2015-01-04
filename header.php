@@ -31,11 +31,11 @@ global $logo;
 <form id="piracy" action="/search_sanitize.php">
 <a href="/" class="img"><img src="<?php echo getCurrent("x", "y"); ?>" height=82 width=87 id="TPBlogo" alt="The Pirate Bay"/></a>
 <b><a href="/" title="Search Torrents">Search Torrents</a></b>&nbsp;&nbsp;|&nbsp;
-<a href="/browse/" title="Browse Torrents">Browse Torrents</a>&nbsp;&nbsp;|&nbsp;
-<a href="/recent/" title="Recent Torrent">Recent Torrents</a>&nbsp;&nbsp;|&nbsp;
-<a href="/tv/" title="TV shows">TV shows</a>&nbsp;&nbsp;|&nbsp;
-<a href="/music/" title="Music">Music</a>&nbsp;&nbsp;|&nbsp;
-<a href="/top/" title="Top 100">Top 100</a>
+<a href="/browse" title="Browse Torrents">Browse Torrents</a>&nbsp;&nbsp;|&nbsp;
+<a href="/recent" title="Recent Torrent">Recent Torrents</a>&nbsp;&nbsp;|&nbsp;
+<a href="/browse/TV" title="TV shows">TV shows</a>&nbsp;&nbsp;|&nbsp;
+<a href="/browse/Music" title="Music">Music</a>&nbsp;&nbsp;|&nbsp;
+<a href="/top/100" title="Top 100">Top 100</a>
 <br><br/><input type="search" title="Pirate Search" name="piracy" required placeholder="Search here..." value="" style="background-color:#ffffe0;" class="searchBox"/><input
 value="Pirate Search" type="submit" class="submitbutton"/>
 
