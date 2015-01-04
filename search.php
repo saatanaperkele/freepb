@@ -14,7 +14,10 @@
 *	Released under WTFPL
 */
 include('header.php');
-headerize('Search Results for "'.$_GET['piracy'].'"');
+$term = $_GET['piracy'];
+setTitle("Search Results for $term");
+headerize("Search Results for $term");
+
 
 
 
