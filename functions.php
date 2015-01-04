@@ -94,3 +94,12 @@ function checkThenPost($newPost){
 	//db magic to update $lastEntryforSite
 	
 }
+
+function getNoFromCatName($name){
+	/*get info from db
+	if($db->error()){
+		header("Location: 404.php");
+		setSpecificError("Category not found!");
+	}*/
+	return 1;
+}
