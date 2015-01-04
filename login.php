@@ -14,3 +14,9 @@
 *	Released under WTFPL
 */
 
+echo("<html><head>");
+
+include("functions.php");
+
+//setting page title with website name
+setTitle("User Login");
