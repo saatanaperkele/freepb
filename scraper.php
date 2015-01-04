@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 /*
 *	freePB
@@ -12,4 +13,24 @@
 *	File: scraper.php [ran on a cron job to get new torrents]
 *	Author: finlandia
 *	Released under WTFPL
+*/
+
+//Cron isn't that hard, people just make it hard
+//for no good reason ;)
+
+//We will need this
+include('functions.php');
+
+//cheers to [1] for the method!
+
+
+
+
+
+
+
+
+/*
+acknowledgements:
+[1] http://stackoverflow.com/questions/250679/best-way-to-parse-rss-atom-feeds-with-php
 */

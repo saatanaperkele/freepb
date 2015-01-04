@@ -29,3 +29,19 @@ function headerize($text){
 	echo "<h2><span>$text</span>&nbsp;</h2>";
 
 }
+
+function parseFeed($dbID){
+	//$dbID is the key of the 
+	//entry in the DB for each one
+	//blah blah database
+	$dbRSS = "http://nextpb.org/feed.rss";
+	class TorrentEntry
+	{
+		var $date;
+ 		var $magnet;
+    	var $uploader;
+    	var $title;
+    	var $text;
+	}
+	
+}
