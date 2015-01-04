@@ -16,12 +16,13 @@
 echo("<html><head>");
 include("header.php");
 $categoryName = $_GET['cat'];
-if($categoryName == "list"){
+if(!$categoryName){
     //blah blah, get stuff from DB
     //List categories with links
+    setTitle("Browse Torrent Categories");
+    headerize("Browse Torrent Categories");
 }
-if(!$categoryName == "list"){
-    
+if($categoryName){
     $categoryNo = getNoFromCatName($categoryName);
     setTitle("Browse $categoryName Torrents");
     headerize("Browse $categoryName Torrents");
