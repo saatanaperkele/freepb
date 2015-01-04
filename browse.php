@@ -20,7 +20,7 @@ if($categoryName == "list"){
     //blah blah, get stuff from DB
     //List categories with links
 }
-if($categoryName != "list"){
+if(!$categoryName == "list"){
     
     $categoryNo = getNoFromCatName($categoryName);
     setTitle("Browse $categoryName Torrents");
