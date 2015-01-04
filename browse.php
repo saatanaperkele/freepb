@@ -9,7 +9,16 @@
 *	plagues our once great movement
 *	
 *
-*	File: 
+*	File: browse.php [ browse a category ]
 *	Author:
 *	Released under WTFPL
 */
+echo("<html><head>");
+include("header.php");
+$categoryName = $_GET['cat'];
+$categoryNo = getNoFromCatName($categoryName);
+setTitle("Browse $categoryName Torrents");
+headerize("Browse $categoryName Torrents");
+
+//db magic
+$itemsInCategory = db_stuff($categoryNo);
