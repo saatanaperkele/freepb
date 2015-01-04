@@ -2,4 +2,5 @@ Options +FollowSymLinks
 RewriteEngine on
 RewriteRule ^recent/$ recent.php [L]
 RewriteRule ^search/([^/.]+)/?$ search.php?piracy=$1	[L]
+RewriteRule ^browse browse.php?cat=list [L]
 RewriteRule ^browse/([^/.]+)/?$ browse.php?cat=$1   [L]

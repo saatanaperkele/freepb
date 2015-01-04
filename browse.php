@@ -16,9 +16,15 @@
 echo("<html><head>");
 include("header.php");
 $categoryName = $_GET['cat'];
-$categoryNo = getNoFromCatName($categoryName);
-setTitle("Browse $categoryName Torrents");
-headerize("Browse $categoryName Torrents");
-
-//db magic
-$itemsInCategory = db_stuff($categoryNo);
+if($categoryName == "list"){
+    //blah blah, get stuff from DB
+    //List categories with links
+}
+if($categoryName != "list"){
+    
+    $categoryNo = getNoFromCatName($categoryName);
+    setTitle("Browse $categoryName Torrents");
+    headerize("Browse $categoryName Torrents");
+    //db magic
+    $itemsInCategory = db_stuff($categoryNo);
+}
