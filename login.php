@@ -9,7 +9,8 @@
 *	plagues our once great movement
 *	
 *
-*	File: 
-*	Author:
+*	File: login.php [ Login for users ]
+*	Author: finlandia
 *	Released under WTFPL
 */
+
