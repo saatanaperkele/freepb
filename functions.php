@@ -78,7 +78,7 @@ function parseFeed($dbID){
     	}
 
 	}
-	return $posts;
+	return $post;
 	
 }
 
