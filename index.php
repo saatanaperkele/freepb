@@ -25,11 +25,13 @@ include("functions.php");
 setTitle("Spreading Freedom Across Your Tubes Since 2003");
 
 //
-?>
-<link type="text/css" rel="stylesheet" href="/css/first.css">
-</head>
-<body>
-<?php
+if(!$usercss){
+    $usercss="/css/first.css";
+    
+}
+echo('<link type="text/css" rel="stylesheet" href="'.$usercss.'">');
+echo("</head><body>");
+
 //fetching the newest mysql row for `url` in table `logos`
 $logo = getCurrent("logos", "url");
 
