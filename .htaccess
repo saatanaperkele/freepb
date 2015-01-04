@@ -1,4 +1,8 @@
 Options +FollowSymLinks
+
+ErrorDocument 404 /not_found
+ErrorDocument 403 /you_shall_not_pass
+
 RewriteEngine on
 RewriteRule ^recent/$ recent.php [L]
 RewriteRule ^search/([^/.]+)/?$ search.php?piracy=$1	[L]
