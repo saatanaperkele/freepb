@@ -55,7 +55,6 @@ function parseFeed($dbID){
 	
     	function __construct($rssURL)
     	{
-    		//$rSSURL = $this->resolveFile($rssURL);
         	if (!($x = simplexml_load_file($rssURL)))
             	return;
 
@@ -73,31 +72,25 @@ function parseFeed($dbID){
 
             	// Create summary as a shortened body and remove images, 
             	// extraneous line breaks, etc.
-            	$post->summary = $this->summarizeText($post->text);
-
             	$this->posts[] = $post;
         	}
+  
     	}
-		/*
-    	private function resolveFile($file_or_url) {
-        	if (!preg_match('|^https?:|', $file_or_url))
-            	$feed_uri = $_SERVER['DOCUMENT_ROOT'] .'/shared/xml/'. $file_or_url;
-        	else
-            	$feed_uri = $file_or_url;
 
-        	return $feed_uri;
-    	}*/
-
-    	private function summarizeText($summary) {
-        //	$summary = strip_tags($summary);
-
-        // Truncate summary line to 100 characters
-        //	$max_len = 100;
-     	//	if (strlen($summary) > $max_len)
-         //   	$summary = substr($summary, 0, $max_len) . '...';
-			// How about no.
-        	return $summary;
-    	}
 	}
+	return $posts;
+	
+}
+
+function checkThenPost($newPost){
+	//dbmagic
+	$lastEntryForSite = "123456"; //TorrentID of last scraped torrent
+	while($newPost['id'] > $lastEntryforSite){
+		//db magic
+		//INSERT INTO ... 
+		
+		$lastStored = $newPost['id'];
+	}
+	//db magic to update $lastEntryforSite
 	
 }
