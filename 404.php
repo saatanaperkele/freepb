@@ -14,23 +14,12 @@
 *	Released under WTFPL
 */
 echo("<html><head>");
-include("functions.php");
-setTitle("Header");
-
-/*
-P
-A
-G
-E
-
-C
-O
-N
-T
-E
-N
-T
-*/
+include("header.php");
+setTitle("404");
+headerize("File not found.");
+?>
+<center><img src="/img/logo.png"></center>
+<?php
 include("footer.php");
 
 createFooter();

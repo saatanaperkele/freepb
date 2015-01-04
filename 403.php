@@ -15,8 +15,8 @@
 */
 echo("<html><head>");
 include("header.php");
-setTitle("404");
-headerize("File not found.");
+setTitle("403");
+headerize("Forbidden.");
 ?>
 <center><img src="/img/logo.png"></center>
 <?php
