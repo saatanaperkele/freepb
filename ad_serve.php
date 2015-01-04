@@ -19,6 +19,6 @@ if(!$_GET['adno']){
 }
 
 if($_GET['adno']){
-    $ad->mysqli_query("SELECT * FROM `ads` SORT BY Random");
+    $ad->mysqli_query("SELECT * FROM `ads` SORT by Random");
     //$ad->mysqli_bind_result() derp
 }

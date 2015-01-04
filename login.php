@@ -20,3 +20,8 @@ include("functions.php");
 
 //setting page title with website name
 setTitle("User Login");
+
+
+include("footer.php");
+
+createFooter();

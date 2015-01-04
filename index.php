@@ -24,7 +24,7 @@ include("functions.php");
 //setting page title with website name
 setTitle("Spreading Freedom Across Your Tubes Since 2003");
 
-//
+//muh user-set css
 if(!$usercss){
     $usercss="/css/first.css";
     
