@@ -14,11 +14,15 @@
 *	Released under WTFPL
 */
 
-if(!$_GET['adno']){
+$adno = $_GET['adno'];
+
+if(!$adno){
     //routine for fetching one randomly
+    $ad->mysqli_query("SELECT * FROM `ads` SORT by Random");
+    
 }
 
-if($_GET['adno']){
-    $ad->mysqli_query("SELECT * FROM `ads` SORT by Random");
+if($adno){
+    $ad->mysqli_query("SELECT * FROM `ads` WHERE `id` = $adno");
     //$ad->mysqli_bind_result() derp
 }
