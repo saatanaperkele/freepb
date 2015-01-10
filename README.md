@@ -1,6 +1,8 @@
 freepb
 ======
 
+[ talented codemonkeys wanted :3 ]
+
 Torrent Indexer, modeled after TPB, aims to be modular and easily scalable or expandable, can even sub to RSS feeds and index in real time. Magnet links only.
 
 Pages can be added if they follow samples/format.php, functionality can be added easily by the $administrator provided they follow the installation guides
