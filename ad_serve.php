@@ -13,7 +13,7 @@
 *	Author: finlandia
 *	Released under WTFPL
 */
-
+include("sql.php");
 $adno = $_GET['adno'];
 
 if(!$adno){
