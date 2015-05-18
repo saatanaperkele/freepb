@@ -14,3 +14,5 @@
 *	Released under WTFPL
 */
 $siteName = "FreePirateBay";
+$siteLoc = "http://localhost/freepb/";
+
