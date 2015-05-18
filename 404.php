@@ -18,8 +18,8 @@ include("header.php");
 setTitle("404");
 headerize("File not found.");
 ?>
-<center><img src="/img/logo.png"></center>
-<?php
+<center><img src="<?php echo $siteLoc;?>/img/logo.png"><br>The file you were looking for could not be found.</center>
+<br><br><?php
 include("footer.php");
 
 createFooter();
