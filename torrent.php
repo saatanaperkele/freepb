@@ -100,38 +100,20 @@ $uploaderSt->fetch();
     <div id="social">
     </div>
     
-		 <iframe src="//cdn.adbrau.com/cdn3/index.php?r=58&b=bar&n=%5B-LetsTryAnal-%5D_Apolonia_%5B-Yoga_Latina_Post-Shower_Anal-%5D_--NEW-&m=magnet%3A%3Fxt%3Durn%3Abtih%3A5208a1713cfb0c844320b64b5df3255340627133%26dn%3D%255B-LetsTryAnal-%255D%2BApolonia%2B%255B-Yoga%2BLatina%2BPost-Shower%2BAnal-%255D%2B--NEW-%26tr%3Dudp%253A%252F%252Ftracker.openbittorrent.com%253A80%26tr%3Dudp%253A%252F%252Fopen.demonii.com%253A1337%26tr%3Dudp%253A%252F%252Ftracker.coppersurfer.tk%253A6969%26tr%3Dudp%253A%252F%252Fexodus.desync.com%253A6969" width="622" height="51" frameborder="0" scrolling="no"></iframe>
 	<br /><br />    <div>
         <div class="download">
-  		          <a style="background-image: url('/static/img/icons/icon-magnet.gif');" href="magnet:?xt=urn:btih:5208a1713cfb0c844320b64b5df3255340627133&dn=%5B-LetsTryAnal-%5D+Apolonia+%5B-Yoga+Latina+Post-Shower+Anal-%5D+--NEW-&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Get this torrent">&nbsp;Get this torrent</a>
-                <a style='background-image: url("/static/img/icon-https.gif");' href="http://cdn3.adbrau.com/lp/?s=tpb&ad=anon&name=Wy1MZXRzVHJ5QW5hbC1dIEFwb2xvbmlhIFstWW9nYSBMYXRpbmEgUG9zdC1TaG93ZXIgQW5hbC1dIC0tTkVXLQ==" title="Anonymous Download ">&nbsp;Anonymous Download </a>
-        </div>
+  		          <a style="background-image: url('<?php echo $siteLoc;?>img/icon-magnet.gif');" href="magnet:?<?php echo $torrentLink;?>" title="Get this torrent">&nbsp;Get this torrent</a>
+        
         <div style="clear:both;">(Problems with magnets links are fixed by upgrading your <a href="http://www.utorrent.com" target="_blank">torrent client</a>!)</div>
-        <div class="nfo">
-            <pre>[-LetsTryAnal-] Apolonia [-Yoga Latina Post-Shower Anal-] --NEW-- 20-May-2015
-
----:More From My Torrent's Here:---   <a href="
-https://thepiratebay.se/user/Upl0ad3rR" rel="nofollow" target="_NEW">
-https://thepiratebay.se/user/Upl0ad3rR</a>
-
----:ScreeNshotS:---  <a href="
-http://image-tpb.com/img-555c123c55fde.html" rel="nofollow" target="_NEW">
-http://image-tpb.com/img-555c123c55fde.html</a> 
- <a href="
-http://image-tpb.com/img-555c123d48b46.html" rel="nofollow" target="_NEW">
-http://image-tpb.com/img-555c123d48b46.html</a> 
- <a href="
-http://image-tpb.com/img-555c12409d9f2.html" rel="nofollow" target="_NEW">
-http://image-tpb.com/img-555c12409d9f2.html</a> 
-
-Apolonia was doing her daily yoga stretches when her horny BF interrupted her. She hit the showers, but when she got a look at her man's hard cock, she got down on her knees to suck his dick, Censored him, and then give up that tight Latina ass!</pre>
+        </div><div class="nfo">
+            <pre><?php echo $torrentDesc;?></pre>
         </div>
         <br/>
         <div class="download">
-            <a style="background-image: url('/static/img/icons/icon-magnet.gif');" href="magnet:?xt=urn:btih:5208a1713cfb0c844320b64b5df3255340627133&dn=%5B-LetsTryAnal-%5D+Apolonia+%5B-Yoga+Latina+Post-Shower+Anal-%5D+--NEW-&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969&tr=udp%3A%2F%2Fexodus.desync.com%3A6969" title="Get this torrent">&nbsp;Get this torrent</a>
+            <a style="background-image: url('<?php echo $siteLoc;?>img/icon-magnet.gif');" href="magnet:?<?php echo $torrentLink;?>" title="Get this torrent">&nbsp;Get this torrent</a>
               </div>
 
-		 <iframe src="//cdn.adbrau.com/cdn3/index.php?r=58&b=bar&n=%5B-LetsTryAnal-%5D_Apolonia_%5B-Yoga_Latina_Post-Shower_Anal-%5D_--NEW-&m=magnet%3A%3Fxt%3Durn%3Abtih%3A5208a1713cfb0c844320b64b5df3255340627133%26dn%3D%255B-LetsTryAnal-%255D%2BApolonia%2B%255B-Yoga%2BLatina%2BPost-Shower%2BAnal-%255D%2B--NEW-%26tr%3Dudp%253A%252F%252Ftracker.openbittorrent.com%253A80%26tr%3Dudp%253A%252F%252Fopen.demonii.com%253A1337%26tr%3Dudp%253A%252F%252Ftracker.coppersurfer.tk%253A6969%26tr%3Dudp%253A%252F%252Fexodus.desync.com%253A6969" width="622" height="51" frameborder="0" scrolling="no"></iframe>
+		 <!-- iframe src="//cdn.adbrau.com/cdn3/index.php?r=58&b=bar&n=%5B-LetsTryAnal-%5D_Apolonia_%5B-Yoga_Latina_Post-Shower_Anal-%5D_--NEW-&m=magnet%3A%3Fxt%3Durn%3Abtih%3A5208a1713cfb0c844320b64b5df3255340627133%26dn%3D%255B-LetsTryAnal-%255D%2BApolonia%2B%255B-Yoga%2BLatina%2BPost-Shower%2BAnal-%255D%2B--NEW-%26tr%3Dudp%253A%252F%252Ftracker.openbittorrent.com%253A80%26tr%3Dudp%253A%252F%252Fopen.demonii.com%253A1337%26tr%3Dudp%253A%252F%252Ftracker.coppersurfer.tk%253A6969%26tr%3Dudp%253A%252F%252Fexodus.desync.com%253A6969" width="622" height="51" frameborder="0" scrolling="no"></iframe -->
 	            <div id="filelistContainer" style="display:none;">
                 <a id="show"></a>
             </div>
