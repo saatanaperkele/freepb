@@ -1,8 +1,5 @@
 Options +FollowSymLinks
 
-ErrorDocument 404 /not_found
-ErrorDocument 403 /you_shall_not_pass
-
 RewriteEngine on
 RewriteRule ^recent/$ recent.php [L]
 RewriteRule ^search/([^/.]+)/?$ search.php?piracy=$1	[L]
@@ -17,5 +14,6 @@ RewriteRule ^go_to_ad/([^/.]+)/?$ ad_out.php?id=$1 [L]
 RewriteRule ^torrent/([^/.]+)/?$ torrent.php?id=$1 [L]
 RewriteRule ^get_magnet/([^/.]+)/?$ serve_magnet.php?get=$1 [L]
 RewriteRule ^admin/([^/.]+)/?$ admin/login.php  [L]
-RewriteRule ^not_found$ 404.php [L]
-RewriteRule ^you_shall_not_pass 403.php [L]
+
+ErrorDocument 404 /freepb/404.php
+ErrorDocument 403 /freepb/403.php
