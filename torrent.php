@@ -24,14 +24,14 @@ $torrentID = $_GET['id'];
 $torrentFetch = $sql->prepare("SELECT * FROM `magnets` WHERE id = ?");
 $torrentFetch->bind_param("i", $torrentID);
 $torrentFetch->execute();
-$torrentFetch->bind_result($torrentID, $torrentTitle, $torrentLink, $torrentUploader, $torrentDate, $torrentCat, $torrentSource, $torrentVerified, $torrentSeeds, $torrentLeach, $torrentSize, $torrentDesc);
+$torrentFetch->bind_result($torrentID, $torrentTitle, $torrentLink, $torrentUploader, $torrentDate, $torrentCat, $torrentSource, $torrentVerified, $torrentSeeds, $torrentLeech, $torrentSize, $torrentDesc);
 $torrentFetch->fetch();
 setTitle($torrentTitle ." - ".$siteName);
 headerize("Details for this torrent (ID: $torrentID)");
 $torrentFetch->close();
 
 //Fetching uploader information
-$uploaderSt = $sql->prepare("SELECT * FROM `users` WHERE id = ?");
+$uploaderSt = $sql->prepare("SELECT * FROM `users` WHERE userid = ?");
 $uploaderSt->bind_param("i", $torrentUploader);
 $uploaderSt->execute();
 $uploaderSt->bind_result($uploaderID, $uploaderName, $uploaderVerif, $uploaderEmail);
@@ -72,20 +72,20 @@ $uploaderSt->fetch();
             <dt>Uploaded:</dt>
             <dd>2015-05-20 06:47:48 GMT</dd>
             <dt>By:</dt>
-            <dd><a href="/user/<?php echo $uploaderName;?>/" title="Browse <?php echo $uploaderName;?>"><?php echo $uploaderName;?></a>&nbsp;<img src="/static/img/trusted.png" alt="Trusted" title="Trusted" style="width:11px;" border='0' /></dd>
+            <dd><a href="/user/<?php echo $uploaderName;?>/" title="Browse <?php echo $uploaderName;?>"><?php echo $uploaderName;?></a>&nbsp;<img src="<?php getTrustedIcon($uploaderSt);?>" alt="Status" title="Status" style="width:11px;" border='0' /></dd>
             <dt>Seeders:</dt>
-            <dd>0</dd>
+            <dd><?php echo $torrentSeeds;?></dd>
 
             <dt>Leechers:</dt>
-            <dd>0</dd>
+            <dd><?php echo $torrentLeech;?></dd>
 
             <dt>Comments</dt>
-            <dd><span id='NumComments'>0</span>
+            <dd><span id='NumComments'>TODO</span>
                 &nbsp;            </dd>
 
             <br />
             <dt>Info Hash:</dt><dd></dd>
-            5208A1713CFB0C844320B64B5DF3255340627133        </dl>
+            md5        </dl>
             <div id="CommentDiv" style="display:none;">
         <form method="post" id="commentsform" name="commentsform" onsubmit="new Ajax.Updater('NumComments', '/ajax_post_comment.php', {evalScripts:true, asynchronous:true, parameters:Form.serialize(this)}); return false;" action="/ajax_post_comment.php">
             <p class="info">

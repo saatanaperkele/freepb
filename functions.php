@@ -104,3 +104,13 @@ function getNoFromCatName($name){
 	}*/
 	return 1;
 }
+
+function getTrustedIcon($uStatus){
+	global $siteLoc;
+	$userVerifs = array(
+	"",
+	"$siteLoc/img/email.png",
+	"$siteLoc/img/trusted.png",
+	"$siteLoc/img/admin.png");
+	return $userVerifs[$uStatus];
+}
