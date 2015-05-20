@@ -19,8 +19,9 @@ include("functions.php");
 global $logo;
 ?>
 
-<link type="text/css" rel="stylesheet" href="<?php echo $siteLoc; ?>/css/first.css">
-<link type="text/css" rel="stylesheet" href="<?php echo $siteLoc; ?>/css/second.css">
+<link type="text/css" rel="stylesheet" href="<?php echo $siteLoc; ?>/css/pirate6.css">
+<?php //<link type="text/css" rel="stylesheet" href="<?php echo $siteLoc; 
+///css/second.css"> ?>
 <body>
 <div id="header">
 <div class="ad">
