@@ -19,9 +19,16 @@ $siteName = "FreePirateBay";
 $siteLoc = "http://localhost/freepb/";
 
 //SQL-specific variables
-$sql = array(
+$sqlConfig = array(
 'user' => 'root', 
 'pass' => '', 
 'host' => 'localhost', 
 'db' => 'freepb');
 
+//Setting up a class for prepared statements
+$sql = new mysqli($sqlConfig['host'], $sqlConfig['user'], $sqlConfig['pass'], $sqlConfig['db']);
+
+//Database connection error handler
+if($sql->connect_errno){
+	header("Location: ".$siteLoc."install.php?err=1");
+}
