@@ -1,4 +1,3 @@
-
 <?php
 /*
 *	freePB
@@ -14,7 +13,9 @@
 *	Author: finlandia
 *	Released under WTFPL
 */
+
 function createFooter(){
+include("sql.php"); //todo find better solution
 echo "<footer>";
-echo '<small><center> [<a href="http://github.com/saatanaperkele/freepb">freepb</a>, <a href="http://kopimi.com/kopimi"><img src="./img/c_mini_7.gif" border="0"></a> + <a href="http://wtfpl.net">wtfpl</a>, 2014, <a href="mailto:finlandia@riseup.net">finlandia</a>]</center></small>';
+echo '<small><center> [<a href="http://github.com/saatanaperkele/freepb">freepb</a>, <a href="http://kopimi.com/kopimi"><img src="'.$siteLoc.'/img/c_mini_7.gif" border="0"></a> + <a href="http://wtfpl.net">wtfpl</a>, 2014, <a href="mailto:finlandia@riseup.net">finlandia</a>]</center></small>';
 }
