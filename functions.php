@@ -10,10 +10,11 @@
 *	
 *
 *	File: functions.php [basic functions]
-*	Author:
+*	Author: finlandia
 *	Released under WTFPL
 */
 include("sql.php");
+
 function setTitle($goeswith){
 	global $siteName;
 	echo "<title>$goeswith - $siteName</title>";

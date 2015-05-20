@@ -16,6 +16,7 @@
 $errorCode = $_GET['error'];
 if($errorCode){
 	$errors = array (
+	"",
 	"MySQL Connection Failed, check settings in sql.php",
 	"Second Error",
 	"Third Error",
