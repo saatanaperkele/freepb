@@ -36,7 +36,7 @@ $uploaderSt->bind_param("i", $torrentUploader);
 $uploaderSt->execute();
 $uploaderSt->bind_result($uploaderID, $uploaderName, $uploaderVerif, $uploaderEmail);
 $uploaderSt->fetch();
-
+$uploaderSt->close();
 ?>
 
 <div id="content">
@@ -122,13 +122,33 @@ $uploaderSt->fetch();
     </div>
     
 			<div class="ads" id="sky-banner">
-				 <iframe src="//thepiratebay.mn/static/ads/exo/sky1.html" width="120" height="600" frameborder="0" scrolling="no"></iframe>
 			</div>
-			<iframe src="//cdn.adbrau.com/c/" width="1" height="1" frameborder="0" scrolling="no"></iframe>
+
 			<script type="text/javascript" src="//thepiratebay.mn/static/ads/ad-scroll.js"></script>
 	</div>
 </div><!-- //div:content -->
+	            <div id="filelistContainer" style="display:none;">
+                <a id="show"></a>
+<div id="commentsheader" class="comments">
+<?php
 
+$commentSt = $sql->prepare("SELECT * FROM `comments` WHERE torrentid = ?");
+$commentSt->bind_param("i", $torrentID);
+$commentSt->execute();
+$commentSt->bind_result($commentID, $commentText, $commentPoster, $commentIsOn);
+echo '<h4>Comments</h4></div><div id="comments">';
+while($commentSt->fetch()){
+	echo '<div id="comment"><p class="byline">';
+	echo '<a href="/user/"'.$commentPoster;
+}
+?>
+
+                    <div id="comment-1"><p class="byline">
+ <a href="/user/Hans1990i/" title="Browse Hans1990i">Hans1990i</a> at 2015-05-20 03:26 CET:
+</p><div class="comment">
+Thank You :-*
+</div>
+</div></div>            </div>
 
 <?php
 include("footer.php");

@@ -114,3 +114,13 @@ function getTrustedIcon($uStatus){
 	"$siteLoc/img/admin.png");
 	return $userVerifs[$uStatus];
 }
+
+function getUserNameFromID($uid){
+	global $sql;
+	$uploaderSt = $sql->prepare("SELECT * FROM `users` WHERE userid = ?");
+	$uploaderSt->bind_param("i", $uid);
+	$uploaderSt->execute();
+	$uploaderSt->bind_result($uploaderID, $uploaderName, $uploaderVerif, $uploaderEmail);
+	$uploaderSt->fetch();
+	return $uploaderName;
+}
