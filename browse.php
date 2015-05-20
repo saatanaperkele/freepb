@@ -22,6 +22,7 @@ if(!$categoryName){
     setTitle("Browse Torrent Categories");
     headerize("Browse Torrent Categories");
 }
+
 if($categoryName){
     $categoryNo = getNoFromCatName($categoryName);
     setTitle("Browse $categoryName Torrents");
