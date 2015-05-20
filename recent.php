@@ -36,7 +36,7 @@ echo '</thread>';
 
 //block
 $category = "TV";
-$torrentid = "134";
+$torrentid = "1";
 $torrentTitle = "TPB AFK: The Story of The Pirate Bay";
 $magnetlink = "asDF34tgfqaG46626";
 $uploader = "John33";
@@ -46,11 +46,15 @@ $seeders = 12;
 $leechers = 156;
 $time = $size;
 
+
 //The loop will repeat these values
 echo '<tr><td class="vertTh"><center><a href="#" title="More from this category">'.$category.'</a><br/></center></td>';
 echo '<td><div class="detName"><a href="'.$siteLoc.'torrent/'.$torrentid.'"class="detLink" title="'.$torrentTitle.'">'.$torrentTitle.'</a></div>';
 echo '<a href="magnet:?'.$magnetlink.'" title="Download this!"><img 
-src="'.$siteLoc.'/img/icon-magnet.gif"></a><a href="'.$siteLoc.'user/'.$uploader.'"><img src="'.$siteLoc.'img/11x11p.png"></a><font class="detDesc">Uploaded '.$timeformatted.'  '.$size.'<span>MB</span>, ULed by <a class="detDesc" href="'.$siteLoc.'/user/'.$uploader.'/" title="Browse '.$uploader.'">'.$uploader.'</a></font></td><td align="right">'.$seeders.'</td><td align="right">'.$leechers.'</td></tr>';
+src="'.$siteLoc.'/img/icon-magnet.gif"></a><a href="'.$siteLoc.'user/'.$uploader.'">
+<img src="'.$siteLoc.'img/11x11p.png"></a><font class="detDesc">Uploaded '.$timeformatted.'  '.$size.'
+<span>MB</span>, ULed by <a class="detDesc" href="'.$siteLoc.'/user/'.$uploader.'/" title="Browse '.$uploader.'">
+'.$uploader.'</a></font></td><td align="right">'.$seeders.'</td><td align="right">'.$leechers.'</td></tr>';
 echo '</table>';
 include("footer.php");
 

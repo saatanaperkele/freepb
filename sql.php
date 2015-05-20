@@ -27,6 +27,7 @@ $sqlConfig = array(
 
 //Setting up a class for prepared statements
 $sql = new mysqli($sqlConfig['host'], $sqlConfig['user'], $sqlConfig['pass'], $sqlConfig['db']);
+global $sql;
 
 //Database connection error handler
 if($sql->connect_errno){

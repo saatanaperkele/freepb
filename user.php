@@ -13,3 +13,23 @@
 *	Author: finlandia
 *	Released under WTFPL
 */
+
+//Page setup
+include("header.php");
+
+if(!$_GET['user']){
+	header("Location: ".$siteLoc);
+}
+$userName = $_GET['user'];
+$tit = "User information for ".$userName;
+setTitle($tit);
+headerize($tit);
+
+//Fetching user information via statement
+$userFetch = $sql->prepare("SELECT * FROM `users` WHERE username = ?");
+$userFetch->bind_param("s", $userName);
+$userFetch->execute();
+$userFetch->bind_result($userID, $userName, $userVerif, $userEmail);
+$userFetch->fetch();
+
+echo $userID." ".$userName." ".$userVerif. " ". $userEmail;
