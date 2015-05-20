@@ -9,10 +9,19 @@
 *	plagues our once great movement
 *	
 *
-*	File: 
-*	Author:
+*	File: sql.php
+*	Author: Finlandia
 *	Released under WTFPL
 */
+
+//Site-wide variables.
 $siteName = "FreePirateBay";
 $siteLoc = "http://localhost/freepb/";
+
+//SQL-specific variables
+$sql = array(
+'user' => 'root', 
+'pass' => '', 
+'host' => 'localhost', 
+'db' => 'freepb');
 
