@@ -105,7 +105,7 @@ function getNoFromCatName($name){
 	return 1;
 }
 
-function getTrustedIcon($uStatus){
+function getTrustedIcon($uStatus){ //TODO: Fix indexerror
 	global $siteLoc;
 	$userVerifs = array(
 	"",
@@ -115,12 +115,13 @@ function getTrustedIcon($uStatus){
 	return $userVerifs[$uStatus];
 }
 
-function getUserNameFromID($uid){
-	global $sql;
-	$uploaderSt = $sql->prepare("SELECT * FROM `users` WHERE userid = ?");
-	$uploaderSt->bind_param("i", $uid);
-	$uploaderSt->execute();
-	$uploaderSt->bind_result($uploaderID, $uploaderName, $uploaderVerif, $uploaderEmail);
-	$uploaderSt->fetch();
+function getUserNameFromID($sql, $uid){ //TODO: dirty hack?
+	$getUser = $sql->prepare("SELECT * FROM `users` WHERE userid = ?");
+	$getUser->bind_param("i", $uid);
+	$sql-error;
+	$getUser->execute();
+	$getUser->bind_result($uploaderID, $uploaderName, $uploaderVerif, $uploaderEmail);
+	$getUser->fetch();
+	$getUser->close();
 	return $uploaderName;
 }
